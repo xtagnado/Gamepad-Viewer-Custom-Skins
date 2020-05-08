@@ -1,0 +1,171 @@
+/*-----------------------------------------------*/
+/* XBOX360 - Skin made By Xtagnado               */
+/*-----------------------------------------------*/
+.controller.custom {
+    width: 961px;
+    height: 423px;
+    background: url(https://i.imgur.com/Kpot3lI.png);
+}
+
+/*-----------------------------------------------*/
+/*            Left Stick / Right Stick           */
+/*-----------------------------------------------*/
+.custom .sticks{
+    position: absolute;
+    width: 219px;
+    height: 210px;
+    top: 328px;
+    left: 210px;
+}
+.custom .stick{
+    position: absolute;
+    width: 110px;
+    height:102px;
+    background: url(https://i.imgur.com/i8jg4SG.png);
+}
+.custom .stick.pressed.left{
+    background-position-x: 110px;
+}
+.custom .stick.pressed.right{
+    background-position-x: 109px;
+}
+.custom .stick.left{
+    top: -300px;
+    left: -90px;
+}
+.custom .stick.right{
+    top: -160px;
+    left: 265px;
+    background-position: 0px 102px; 
+}
+/*-----------------------------------------------*/
+/*                      Dpad                     */
+/*-----------------------------------------------*/
+.custom .dpad{
+    position: absolute;
+    width: 268px;
+    height: 91px;
+}
+.custom .face{
+    background: url(https://i.imgur.com/ato4ZZE.png);
+}
+.custom .face.pressed.up{
+	position: absolute;
+	width: 59px;
+	height: 91px;
+    left: 255px;
+    top: 168px;
+}
+.custom .face.pressed.down{
+	position: absolute;
+	width: 59px;
+	height: 91px;
+    left: 259px;
+    top: 227px;
+    background-position: 200px;
+}
+.custom .face.pressed.left{
+	position: absolute;
+	width: 70px;
+	height: 59px;
+    top: 202px;
+    left: 217px;
+    background-position: 140px 0px;
+}
+.custom .face.pressed.right{
+	position: absolute;
+	width: 70px;
+	height: 59px;
+    top: 201px;
+    right: -87px;
+    background-position: 67px 0px;
+}
+/*-----------------------------------------------*/
+/*                     A B X Y                   */
+/*-----------------------------------------------*/
+.custom .abxy{
+    position: absolute;
+    width: 202px;
+    height: 46px;
+    top: 156px;
+    left: 538px;
+}
+.custom .button{
+    background-position-y: -59px;
+}
+.custom .button.pressed{
+	position: absolute;
+    width: 62px;
+    height:60px;
+    background: url(https://i.imgur.com/EUxubeT.png);
+}
+.custom .a.pressed{
+    top: -11px;
+    left: 61px;
+    background-position: 123px 0;
+}
+.custom .b.pressed{
+    top: -61px;
+    left: 109px;
+    background-position: 61px 0;
+}
+.custom .x.pressed{
+    top: -67px;
+	left: -1px;
+}
+.custom .y.pressed{
+	top: -115px;
+    left: 49px;
+    background-position: -60px;
+}
+/*-----------------------------------------------*/
+/*                 Back / Start                  */
+/*-----------------------------------------------*/
+.custom .back, .custom .start{
+    width: 114px;
+    height: 44px;
+    background: url(https://i.imgur.com/033ejVV.png);
+}
+.custom .back.pressed{
+position: absolute;
+    width: 60px;
+	height: 40px;
+    left: 298px;
+	top: 95px;
+}
+.custom .start.pressed{
+position: absolute;
+    width: 60px;
+	height: 40px;
+	left: 453px;
+	top: 100px;
+    background-position: 60px 0;
+}
+/*-----------------------------------------------*/
+/*                   Bumpers                     */
+/*-----------------------------------------------*/
+.custom .bumper{
+    width: 161px;
+    height: 59px;
+    opacity: 0;
+    background: url(https://i.imgur.com/0IbgE1Y.png);
+}
+.custom .bumpers{
+    position: absolute;
+    width: 314px;
+    height: 59px;
+}
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumper.left{
+	position: absolute;
+	top: -9px;
+	left: 106px;
+}
+.custom .bumper.right{
+	position: absolute;
+	top: 6px;
+	right: -388px;
+	background-position: 150px 0px;
+}
