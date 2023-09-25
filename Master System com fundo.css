@@ -1,0 +1,74 @@
+/*-----------------------------------------------*/
+/*  Master System Controller - Made By Xtagnado  */
+/* Pode usar à vontade, só não fala que é seu =D */
+/*-----------------------------------------------*/
+.controller.custom {
+	width: 500px;
+	height: 207px;
+	background: url(https://i.imgur.com/AqCTZfv.png);
+}
+.custom.disconnected {
+    background: Magenta;
+}
+/*-----------------------------------------------*/
+/*                      Dpad                     */
+/*-----------------------------------------------*/
+.custom .dpad{
+    width: 443px;
+    height: 107px;
+}
+.custom .face{
+    background: url(https://i.imgur.com/gYJc16X.png);
+	height: 135px;
+}
+.custom .face.pressed.up{
+    position: absolute;
+	width: 59px;
+	left: 174px;
+	top: 133px;
+	background-position: -450px;
+}
+.custom .face.pressed.down{
+    position: absolute;
+	width: 57px;
+    left: 177px;
+    top: 226px;
+    background-position: -508px;
+}
+.custom .face.pressed.left{
+    position: absolute;
+	width: 67px;
+    top: 185px;
+    left: 125px;
+    background-position: -566px;
+}
+.custom .face.pressed.right{
+    position: absolute;
+	width: 70px;
+    top: 184px;
+    right: 674px;
+    background-position: -637px;
+}
+/*-----------------------------------------------*/
+/*             Button 1 and Button 2             */
+/*-----------------------------------------------*/
+.custom .button{
+    background-position-y: -59px;
+}
+.custom .button.pressed{
+	position: absolute;
+    height:135px;
+    background: url(https://i.imgur.com/gYJc16X.png);
+}
+.custom .pressed.a{
+    width: 87px;
+    top: 242px;
+    left: 711px;
+    background-position: -940px;
+}
+.custom .pressed.b{
+    width: 87px;
+    top: 175px;
+    left: 800px;
+    background-position: -1025px;
+}
